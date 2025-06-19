@@ -1,8 +1,8 @@
 # Example tfvars values
-resource_group_name = "kml_rg_main-aa40e195bfa647ee"
+resource_group_name = " "
 location            = "westus"
 vm_count = 2
-vm_name_prefix = "shar"
+vm_name_prefix = "myvm"
 admin_username = "admin"
 admin_password = "admin123"
 vm_size = "Standard_B1s"
