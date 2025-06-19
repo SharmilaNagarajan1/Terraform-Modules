@@ -47,3 +47,5 @@ module "vnet" {
   subnet_names    = ["subnet1", "subnet2"]
   subnet_prefixes = ["10.0.1.0/24", "10.0.2.0/24"]
 }
+
+>>>>>>> 0da19e2445a32245fde43dfd65e8ae92a6902c6a
