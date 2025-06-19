@@ -25,7 +25,7 @@ vnet2_resource_group_name = "<res_group_name>"
 
 # Create an Azure Virtual Network using a public module
 # We'll use the public module from the Terraform Registry: Azure/vnet/azurerm
-# main.tf
+### main.tf
 provider "azurerm" {
   features {}
   resource_provider_registrations = "none"
