@@ -12,7 +12,7 @@ A reusable Terraform module to provision an Azure Virtual Network (VNet). Ideal 
 - Output returns VNet ID
 
 ---
-- Cretae multiple VNets by passing values in terraform.tfvars file 
+- Create multiple VNets by passing values in terraform.tfvars file 
 vnet1_name = "my-vnet1"
 vnet1_address_space = [ "10.0.0.0/16" ]
 vnet1_location  = "<location>"
@@ -24,7 +24,7 @@ vnet2_location  = "<location>"
 vnet2_resource_group_name = "<res_group_name>"
 
 # Create an Azure Virtual Network using a public module
-# We'll use the public module from the Terraform Registry: Azure/vnet/azurerm
+## We'll use the public module from the Terraform Registry: Azure/vnet/azurerm
 ### main.tf
 provider "azurerm" {
   features {}
